@@ -81,10 +81,34 @@ nav{
 .icone {
 
 border: 1px solid;
-border-radius: 100%;
+
 min-height: 50px;
 min-width: 50px;
-margin-right: 10px;
+
+}
+
+h4{
+    transition: ease-in-out 1s;
+}
+
+.col h4 {
+   transition: ease-in-out 1s;
+    display: none;
+}
+
+.col .img-fluid{
+    transition: ease-in-out 1s;
+}
+ .col:hover h4{
+    display: block;
+    font-weight: bold;
+    
+}
+
+
+.col:hover .img-fluid{
+    opacity: 0.3;
+    cursor: pointer;
 }
 
 .icone_container {
