@@ -7,13 +7,12 @@ nav{
 
 h4{
     /* Debug */
-    border: 1px solid white;
-    min-height: 20px;
+   
 }
 
 a{
-    /* Debug */
-    min-height: 50px;
+    
+   
 }
 
 
@@ -22,7 +21,7 @@ a{
     align-items: center;
     background-color: #1abc9c;
     /* debug */
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* debug */
