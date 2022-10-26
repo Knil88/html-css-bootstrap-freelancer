@@ -40,45 +40,8 @@ nav{
 
 
 
-/* debug */
-
-
-.
-
-
-/* Debug */
-.block{
-
-    border: 2px solid black;
-    height: 40px;
-
-}
-
-
-.block_md {
-
-    border: 2px solid black;
-    height: 200px; 
-
-}
-
-.block_xl {
-
-    border: 2px solid black;
-    height: 400px; 
-
-}
-
-.form{
-    border-bottom: 2px solid;
-    height: calc((100% / 6) * 1);
-
-}
-
-.form_xl{
-    border-bottom: 2px solid;
-    height: calc((100% / 6) * 3);
-
+#se_nd{
+    background-color: #1abc9c;
 }
 
 .about_container{
@@ -118,15 +81,9 @@ justify-content: center;
 background-color: #2c3e50;
 
 }
-/* debug */
 
 
-.logo {
-
-height: 250px;
-width: 250px;
-border: 2px solid ;
-border-radius: 100%;
-
+#star_t{
+    color: #1db397;
 }
 
