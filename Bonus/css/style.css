@@ -87,7 +87,40 @@ min-width: 50px;
 
 }
 
+h4{
+    transition: ease-in-out 1s;
+}
 
+.col h4 {
+   transition: ease-in-out 1s;
+    display: none;
+}
+
+.col .img-fluid{
+    transition: ease-in-out 1s;
+}
+ .col:hover h4{
+    display: block;
+    font-weight: bold;
+    
+}
+
+
+.col:hover .img-fluid{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.icone_container {
+display: flex;
+justify-content: center;
+
+}
+
+.copy {
+background-color: #2c3e50;
+
+}
 
 
 #star_t{
